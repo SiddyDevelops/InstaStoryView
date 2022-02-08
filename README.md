@@ -1,5 +1,9 @@
 # InstaStoryView
 
+<p align="center">
+  <img height=200px src="https://user-images.githubusercontent.com/72121163/152954424-8740f28c-b8d2-4188-aa0f-41c2c03fb839.png" />
+<p/>
+
 ## About
 
 [![](https://jitpack.io/v/SiddyDevelops/InstaStoryView.svg)](https://jitpack.io/#SiddyDevelops/InstaStoryView)
