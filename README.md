@@ -30,3 +30,13 @@ dependencies {
 ```
 
 ---
+	
+## From the Developer:
+
+This Android Library is developed by <a href="https://siddydevelops.github.io/">Siddharth Singh<a/>. Show your support by liking this repository.
+  
+Follow my <a href="https://github.com/SiddyDevelops#connect-with-me">Social Handles<a/> for more projects.
+  
+Enjoy Coding!! 🚀 ✨
+
+---
