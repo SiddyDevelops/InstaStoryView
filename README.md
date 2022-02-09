@@ -5,6 +5,7 @@
 <p/>
 
 ## About
+***The InstaStoryView is a custom Android library which is hosted on ***Jitpack***. This library allows user to easily use the Instagram-Story like features in their Android Applications. All you need to do is add ImageURLs, ProfileURL and what you will get is a progressive and interactive story view in which you can pause a progressive story and move forwards or backwards.*** 
 
 [![](https://jitpack.io/v/SiddyDevelops/InstaStoryView.svg)](https://jitpack.io/#SiddyDevelops/InstaStoryView)
 ![Minimum SDK Version](https://img.shields.io/badge/minSdkVersion-23-brightgreen)
@@ -33,7 +34,7 @@ dependencies {
 	
 ## From the Developer:
 
-This Android Library is developed by <a href="https://siddydevelops.github.io/">Siddharth Singh<a/>. Show your support by liking this repository.
+This Android Library is developed by <a href="https://siddydevelops.github.io/">Siddharth Singh<a/>. Show your support by forking and liking this repository.
   
 Follow my <a href="https://github.com/SiddyDevelops#connect-with-me">Social Handles<a/> for more projects.
   
