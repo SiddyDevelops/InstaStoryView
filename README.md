@@ -80,7 +80,9 @@ InstaStoryViewer(Context context, Class cls, String[] imageURls, String username
 	 LikeCounts  -->  Array of the counts for each image in the story.
 	 StoryText   -->  Array of the texts which are needed to be displayed with the story.
 ``` 
-	
+
+**NOTE:** The instagram stories have hierarchical structure, i.e., each user might have multiple images in their story hence the contructor must be change iteratratively for all the items in the recycler view otherwise you will get to see constant stories for all the users.
+
 ---
 	
 ## From the Developer:
