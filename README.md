@@ -53,12 +53,29 @@ dependencies {
         holder.itemview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                    InstaStoryViewer instaStoryViewer = new InstaStoryViewer(view.getContext(), MainActivity.class,ImageURls,username,userProfile,storyTimes,likeCounts,storyText);
+                    InstaStoryViewer instaStoryViewer = new InstaStoryViewer(view.getContext(),MainActivity.class,ImageURls,
+		                                             username,userProfile,storyTimes,likeCounts,storyText);
                     instaStoryViewer.showStory();      // To inflate the StoryView onClick.
             }
         });
     }
 	```
+
+***InstaStoryViewer Constructor Structure:***
+	
+```
+InstaStoryViewer(Context context, Class cls, String[] imageURls, String username, String userProfile, 
+                                        String[] storyTimes, String[] likeCounts, String[] storyText)  
+	 Context     -->  Context of the activity/class from where you initiate the library.
+	 Cls         -->  Class in which the Main RecyclerView is present.	
+	 ImageURLs   -->  Array of all the Image URLs which are needed to be loaded into the StoryViewer.
+	 Username    -->  Username which will be displayed is needed to be displayed with the image.
+	 UserProfile -->  URL of the Profile Image of the user.
+	 StoryTimes  -->  Array of the time of upload of story.
+	 LikeCounts  -->  Array of the counts for each image in the story.
+	 StoryText   -->  Array of the texts which are needed to be displayed with the story.
+``` 
+	
 ---
 	
 ## From the Developer:
