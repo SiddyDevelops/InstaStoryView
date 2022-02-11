@@ -37,11 +37,15 @@ dependencies {
 
 - In order to use the functionality of this library you need to create your own RecyclerView-Adapters and Viewholders which will inflate the StoryViewer. So all the code/modifications are needed to be done inside the RecyclerViewAdapter.
 
-![01](https://user-images.githubusercontent.com/72121163/153535279-3df75127-384b-4e65-81a6-359c55353459.png)
+<p align="center">
+	<img src="https://user-images.githubusercontent.com/72121163/153535279-3df75127-384b-4e65-81a6-359c55353459.png" />
+</p>
 
 - Once you have created you ``StoryViewRV`` (which on clicking will display the story) we can add the functionality of this library. Lets us take the given below RV as an example:
 
-![02](https://user-images.githubusercontent.com/72121163/153535768-db08ce8b-4d45-45af-92ae-e01f635b4c07.png)
+<p align="center">
+	<img src="https://user-images.githubusercontent.com/72121163/153535768-db08ce8b-4d45-45af-92ae-e01f635b4c07.png" />
+</p>
 
 - Inside the ``StoryViewAdapter`` you need to initilize the ``InstaStoryViewer`` in the ``onBindViewHolder`` function.
 
