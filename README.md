@@ -31,6 +31,12 @@ dependencies {
 ```
 
 ---
+
+## Usage:
+- The very first step is to include ``<uses-permission android:name="android.permission.INTERNET" />`` in the ``AndroidManifest.xml`` of your project.
+- In order to use the functionality of this library you need to create your own RecyclerView-Adapters and Viewholders which will inflate the StoryViewer. So all the code/modifications are needed to be done inside the RecyclerViewAdapter.
+
+---
 	
 ## From the Developer:
 
