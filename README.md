@@ -66,6 +66,7 @@ dependencies {
 ```
 InstaStoryViewer(Context context, Class cls, String[] imageURls, String username, String userProfile, 
                                         String[] storyTimes, String[] likeCounts, String[] storyText)  
+					
 	 Context     -->  Context of the activity/class from where you initiate the library.
 	 Cls         -->  Class in which the Main RecyclerView is present.	
 	 ImageURLs   -->  Array of all the Image URLs which are needed to be loaded into the StoryViewer.
