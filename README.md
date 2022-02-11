@@ -43,7 +43,22 @@ dependencies {
 
 ![02](https://user-images.githubusercontent.com/72121163/153535768-db08ce8b-4d45-45af-92ae-e01f635b4c07.png)
 
+- Inside the ``StoryViewAdapter`` you need to initilize the ``InstaStoryViewer`` in the ``onBindViewHolder`` function.
 
+	```
+	@Override
+    public void onBindViewHolder(@NonNull StoryViewHolder holder, int position) {
+        ..
+        ..
+        holder.itemview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                    InstaStoryViewer instaStoryViewer = new InstaStoryViewer(view.getContext(), MainActivity.class,ImageURls,username,userProfile,storyTimes,likeCounts,storyText);
+                    instaStoryViewer.showStory();      // To inflate the StoryView onClick.
+            }
+        });
+    }
+	```
 ---
 	
 ## From the Developer:
