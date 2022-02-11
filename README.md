@@ -13,6 +13,18 @@
 
 ---
 
+## Features & Demo
+
+- Pause Image Progress.
+- Click on right portion to goto next image without waited for the progress to complete.
+- Click on left portion to goto previous image without waited for the progress to complete. 
+
+<p align="center">
+  <img width="200" height="450" src="https://user-images.githubusercontent.com/72121163/153580606-2b86547d-5450-4cd3-9124-434e0e103479.gif">  
+</p>
+
+---
+
 ## Installation:
 - Step 1. Add it in your root build.gradle at the end of repositories:
 ```
