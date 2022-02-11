@@ -39,6 +39,11 @@ dependencies {
 
 ![01](https://user-images.githubusercontent.com/72121163/153535279-3df75127-384b-4e65-81a6-359c55353459.png)
 
+- Once you have created you ``StoryViewRV`` (which on clicking will display the story) we can add the functionality of this library. Lets us take the given below RV as an example:
+
+![02](https://user-images.githubusercontent.com/72121163/153535768-db08ce8b-4d45-45af-92ae-e01f635b4c07.png)
+
+
 ---
 	
 ## From the Developer:
